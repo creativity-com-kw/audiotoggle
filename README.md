@@ -23,3 +23,8 @@ Android has the following additional options:
     AudioToggle.setAudioMode(AudioToggle.NORMAL);
     // and
     AudioToggle.setAudioMode(AudioToggle.RINGTONE);
+
+
+For webrtc call (on speaker) on cordova app use CALL_ON_SPEAKER mode, it will prevent echo on android
+
+    AudioToggle.setAudioMode(AudioToggle.CALL_ON_SPEAKER);
